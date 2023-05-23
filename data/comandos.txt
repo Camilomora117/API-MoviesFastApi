@@ -1,0 +1,37 @@
+Crear entorno virtual
+py -m venv venv
+
+Activar entorno virtual
+.\venv\Scripts\activate
+
+instalar fastapi
+pip install fastapi uvicorn
+
+Correr servidor
+uvicorn main:app --reload
+
+Documentación (openApi)
+/docs
+/redoc
+
+Formularios
+pip install python-multipart
+
+JWT
+pip install pyjwt
+pip install passlib
+pip install bcrypt
+
+SqlALchemist
+instalar: pip install sqlalchemys
+
+Test
+pip install pytest
+pip install httpx
+pip install requests
+
+Templates
+pip install Jinja2
+
+Archivo requerimientos
+pip freeze > requeriments.txt
